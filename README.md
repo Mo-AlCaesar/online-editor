@@ -38,7 +38,7 @@ And you can add more suggestions you need by adding them to `suggestions.json` i
 * jQuary
 
 ## libraries used :
-* [bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - a Css library
+* [bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - Css library
 * [monaco-editor](https://microsoft.github.io/monaco-editor/) - The Editor of the Web
 
 ##
