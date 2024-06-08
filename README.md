@@ -7,7 +7,7 @@
 * JavaScript
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mo-AlCaesar/online-editor/main/screenshot/011119.png">
+  <img src="https://raw.githubusercontent.com/Mo-AlCaesar/online-editor/main/screenshot/013930.png">
 </p>
 
 
