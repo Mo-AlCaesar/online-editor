@@ -12,6 +12,8 @@
 
 
 ### It has auto suggestions like `vsCode` and all shortcuts are same as `vsCode`
+And you can add more suggestions you need by adding them to `suggestions.json` in `api` folder
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Mo-AlCaesar/online-editor/main/screenshot/005044.png">
 </p>
