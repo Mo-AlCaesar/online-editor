@@ -1,0 +1,643 @@
+[
+  { "label": "break", "kind": "Keyword" },
+  { "label": "case", "kind": "Keyword" },
+  { "label": "catch", "kind": "Keyword" },
+  { "label": "class", "kind": "Keyword" },
+  { "label": "const", "kind": "Keyword" },
+  { "label": "continue", "kind": "Keyword" },
+  { "label": "debugger", "kind": "Keyword" },
+  { "label": "default", "kind": "Keyword" },
+  { "label": "delete", "kind": "Keyword" },
+  { "label": "do", "kind": "Keyword" },
+  { "label": "else", "kind": "Keyword" },
+  { "label": "export", "kind": "Keyword" },
+  { "label": "extends", "kind": "Keyword" },
+  { "label": "finally", "kind": "Keyword" },
+  { "label": "for", "kind": "Keyword" },
+  { "label": "function", "kind": "Keyword" },
+  { "label": "if", "kind": "Keyword" },
+  { "label": "import", "kind": "Keyword" },
+  { "label": "in", "kind": "Keyword" },
+  { "label": "instanceof", "kind": "Keyword" },
+  { "label": "new", "kind": "Keyword" },
+  { "label": "return", "kind": "Keyword" },
+  { "label": "super", "kind": "Keyword" },
+  { "label": "switch", "kind": "Keyword" },
+  { "label": "this", "kind": "Keyword" },
+  { "label": "throw", "kind": "Keyword" },
+  { "label": "try", "kind": "Keyword" },
+  { "label": "typeof", "kind": "Keyword" },
+  { "label": "var", "kind": "Keyword" },
+  { "label": "void", "kind": "Keyword" },
+  { "label": "while", "kind": "Keyword" },
+  { "label": "with", "kind": "Keyword" },
+  { "label": "yield", "kind": "Keyword" },
+  { "label": "async", "kind": "Keyword" },
+  { "label": "await", "kind": "Keyword" },
+  { "label": "class", "kind": "Keyword" },
+  {
+    "label": "constructor",
+    "kind": "Snippet",
+    "insertText": "constructor() {\n\t\n}"
+  },
+  {
+    "label": "function",
+    "kind": "Snippet",
+    "insertText": "function functionName(params) {\n\t\n}"
+  },
+  {
+    "label": "for",
+    "kind": "Snippet",
+    "insertText": "for (let i = 0; i < length; i++) {\n\t\n}"
+  },
+  { "label": "if", "kind": "Snippet", "insertText": "if (condition) {\n\t\n}" },
+  { "label": "else", "kind": "Snippet", "insertText": "else {\n\t\n}" },
+  {
+    "label": "while",
+    "kind": "Snippet",
+    "insertText": "while (condition) {\n\t\n}"
+  },
+  {
+    "label": "switch",
+    "kind": "Snippet",
+    "insertText": "switch (expression) {\n\tcase value:\n\t\t\n\t\tbreak;\n\tdefault:\n\t\t\n\t\tbreak;\n}"
+  },
+  {
+    "label": "try",
+    "kind": "Snippet",
+    "insertText": "try {\n\t\n} catch (error) {\n\t// handle error\n}"
+  },
+  {
+    "label": "catch",
+    "kind": "Snippet",
+    "insertText": "catch (error) {\n\t// handle error\n}"
+  },
+  { "label": "finally", "kind": "Snippet", "insertText": "finally {\n\t\n}" },
+  { "label": "throw", "kind": "Snippet", "insertText": "throw error;" },
+  { "label": "return", "kind": "Snippet", "insertText": "return value;" },
+  {
+    "label": "async function",
+    "kind": "Snippet",
+    "insertText": "async function functionName(params) {\n\t\n}"
+  },
+  { "label": "await", "kind": "Snippet", "insertText": "await promise;" },
+  {
+    "label": "console.log",
+    "kind": "Snippet",
+    "insertText": "console.log(${1:message});"
+  },
+  {
+    "label": "document",
+    "kind": "Method",
+    "insertText": "document"
+  },
+
+  {
+    "label": "activeElement",
+    "kind": "Property",
+    "insertText": "document.activeElement"
+  },
+  {
+    "label": "anchors",
+    "kind": "Property",
+    "insertText": "document.anchors"
+  },
+  {
+    "label": "applets",
+    "kind": "Property",
+    "insertText": "document.applets"
+  },
+  {
+    "label": "baseURI",
+    "kind": "Property",
+    "insertText": "document.baseURI"
+  },
+  {
+    "label": "body",
+    "kind": "Property",
+    "insertText": "document.body"
+  },
+  {
+    "label": "cookie",
+    "kind": "Property",
+    "insertText": "document.cookie"
+  },
+  {
+    "label": "defaultView",
+    "kind": "Property",
+    "insertText": "document.defaultView"
+  },
+  {
+    "label": "doctype",
+    "kind": "Property",
+    "insertText": "document.doctype"
+  },
+  {
+    "label": "documentElement",
+    "kind": "Property",
+    "insertText": "document.documentElement"
+  },
+  {
+    "label": "documentURI",
+    "kind": "Property",
+    "insertText": "document.documentURI"
+  },
+  {
+    "label": "domain",
+    "kind": "Property",
+    "insertText": "document.domain"
+  },
+  {
+    "label": "forms",
+    "kind": "Property",
+    "insertText": "document.forms"
+  },
+  {
+    "label": "head",
+    "kind": "Property",
+    "insertText": "document.head"
+  },
+  {
+    "label": "images",
+    "kind": "Property",
+    "insertText": "document.images"
+  },
+  {
+    "label": "implementation",
+    "kind": "Property",
+    "insertText": "document.implementation"
+  },
+  {
+    "label": "inputEncoding",
+    "kind": "Property",
+    "insertText": "document.inputEncoding"
+  },
+  {
+    "label": "lastModified",
+    "kind": "Property",
+    "insertText": "document.lastModified"
+  },
+  {
+    "label": "links",
+    "kind": "Property",
+    "insertText": "document.links"
+  },
+  {
+    "label": "location",
+    "kind": "Property",
+    "insertText": "document.location"
+  },
+  {
+    "label": "ownerDocument",
+    "kind": "Property",
+    "insertText": "document.ownerDocument"
+  },
+  {
+    "label": "plugins",
+    "kind": "Property",
+    "insertText": "document.plugins"
+  },
+  {
+    "label": "readyState",
+    "kind": "Property",
+    "insertText": "document.readyState"
+  },
+  {
+    "label": "referrer",
+    "kind": "Property",
+    "insertText": "document.referrer"
+  },
+  {
+    "label": "scripts",
+    "kind": "Property",
+    "insertText": "document.scripts"
+  },
+  {
+    "label": "title",
+    "kind": "Property",
+    "insertText": "document.title"
+  },
+  {
+    "label": "getElementById",
+    "kind": "Method",
+    "insertText": "document.getElementById()"
+  },
+  {
+    "label": "getElementsByClassName",
+    "kind": "Method",
+    "insertText": "document.getElementsByClassName()"
+  },
+  {
+    "label": "getElementsByTagName",
+    "kind": "Method",
+    "insertText": "document.getElementsByTagName()"
+  },
+  {
+    "label": "querySelector",
+    "kind": "Method",
+    "insertText": "document.querySelector()"
+  },
+  {
+    "label": "querySelectorAll",
+    "kind": "Method",
+    "insertText": "document.querySelectorAll()"
+  },
+  {
+    "label": "createElement",
+    "kind": "Method",
+    "insertText": "document.createElement()"
+  },
+  {
+    "label": "createTextNode",
+    "kind": "Method",
+    "insertText": "document.createTextNode()"
+  },
+  {
+    "label": "appendChild",
+    "kind": "Method",
+    "insertText": "document.appendChild()"
+  },
+  {
+    "label": "removeChild",
+    "kind": "Method",
+    "insertText": "document.removeChild()"
+  },
+  {
+    "label": "addEventListener",
+    "kind": "Method",
+    "insertText": "document.addEventListener()"
+  },
+  {
+    "label": "removeEventListener",
+    "kind": "Method",
+    "insertText": "document.removeEventListener()"
+  },
+  {
+    "label": "write",
+    "kind": "Method",
+    "insertText": "document.write()"
+  },
+  {
+    "label": "writeln",
+    "kind": "Method",
+    "insertText": "document.writeln()"
+  },
+
+  {
+    "label": "full-html",
+    "kind": "Snippet",
+    "insertText": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<title>Document</title>\n</head>\n<body>\n\t\n</body>\n</html>"
+  },
+
+  {
+    "label": "!DOCTYPE html",
+    "kind": "Snippet",
+    "insertText": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n</head>\n<body>\n\t\n</body>\n</html>"
+  },
+  { "label": "html", "kind": "Snippet", "insertText": "<html>\n\t\n</html>" },
+  {
+    "label": "head",
+    "kind": "Snippet",
+    "insertText": "<head>\n\t<title></title>\n\t\n</head>"
+  },
+  { "label": "title", "kind": "Snippet", "insertText": "<title></title>" },
+  { "label": "base", "kind": "Snippet", "insertText": "<base href=\"\">" },
+  {
+    "label": "link",
+    "kind": "Snippet",
+    "insertText": "<link rel=\"stylesheet\" href=\"\">"
+  },
+  {
+    "label": "meta",
+    "kind": "Snippet",
+    "insertText": "<meta name=\"\" content=\"\">"
+  },
+  {
+    "label": "style",
+    "kind": "Snippet",
+    "insertText": "<style>\n\t\n</style>"
+  },
+  {
+    "label": "template",
+    "kind": "Snippet",
+    "insertText": "<template>\n\t\n</template>"
+  },
+  { "label": "body", "kind": "Snippet", "insertText": "<body>\n\t\n</body>" },
+  {
+    "label": "article",
+    "kind": "Snippet",
+    "insertText": "<article>\n\t\n</article>"
+  },
+  {
+    "label": "section",
+    "kind": "Snippet",
+    "insertText": "<section>\n\t\n</section>"
+  },
+  { "label": "nav", "kind": "Snippet", "insertText": "<nav>\n\t\n</nav>" },
+  {
+    "label": "aside",
+    "kind": "Snippet",
+    "insertText": "<aside>\n\t\n</aside>"
+  },
+  { "label": "h1", "kind": "Snippet", "insertText": "<h1></h1>" },
+  { "label": "h2", "kind": "Snippet", "insertText": "<h2></h2>" },
+  { "label": "h3", "kind": "Snippet", "insertText": "<h3></h3>" },
+  { "label": "h4", "kind": "Snippet", "insertText": "<h4></h4>" },
+  { "label": "h5", "kind": "Snippet", "insertText": "<h5></h5>" },
+  { "label": "h6", "kind": "Snippet", "insertText": "<h6></h6>" },
+  {
+    "label": "header",
+    "kind": "Snippet",
+    "insertText": "<header>\n\t\n</header>"
+  },
+  {
+    "label": "footer",
+    "kind": "Snippet",
+    "insertText": "<footer>\n\t\n</footer>"
+  },
+  {
+    "label": "address",
+    "kind": "Snippet",
+    "insertText": "<address>\n\t\n</address>"
+  },
+  { "label": "main", "kind": "Snippet", "insertText": "<main>\n\t\n</main>" },
+  { "label": "p", "kind": "Snippet", "insertText": "<p></p>" },
+  { "label": "hr", "kind": "Snippet", "insertText": "<hr>" },
+  { "label": "pre", "kind": "Snippet", "insertText": "<pre>\n\t\n</pre>" },
+  {
+    "label": "blockquote",
+    "kind": "Snippet",
+    "insertText": "<blockquote>\n\t\n</blockquote>"
+  },
+  {
+    "label": "ol",
+    "kind": "Snippet",
+    "insertText": "<ol>\n\t<li></li>\n</ol>"
+  },
+  {
+    "label": "ul",
+    "kind": "Snippet",
+    "insertText": "<ul>\n\t<li></li>\n</ul>"
+  },
+  { "label": "li", "kind": "Snippet", "insertText": "<li></li>" },
+  {
+    "label": "dl",
+    "kind": "Snippet",
+    "insertText": "<dl>\n\t<dt></dt>\n\t<dd></dd>\n</dl>"
+  },
+  { "label": "dt", "kind": "Snippet", "insertText": "<dt></dt>" },
+  { "label": "dd", "kind": "Snippet", "insertText": "<dd></dd>" },
+  {
+    "label": "figure",
+    "kind": "Snippet",
+    "insertText": "<figure>\n\t\n</figure>"
+  },
+  {
+    "label": "figcaption",
+    "kind": "Snippet",
+    "insertText": "<figcaption></figcaption>"
+  },
+  { "label": "div", "kind": "Snippet", "insertText": "<div>\n\t\n</div>" },
+  { "label": "a", "kind": "Snippet", "insertText": "<a href=\"\"></a>" },
+  { "label": "em", "kind": "Snippet", "insertText": "<em></em>" },
+  { "label": "strong", "kind": "Snippet", "insertText": "<strong></strong>" },
+  { "label": "small", "kind": "Snippet", "insertText": "<small></small>" },
+  { "label": "s", "kind": "Snippet", "insertText": "<s></s>" },
+  { "label": "cite", "kind": "Snippet", "insertText": "<cite></cite>" },
+  { "label": "q", "kind": "Snippet", "insertText": "<q></q>" },
+  { "label": "dfn", "kind": "Snippet", "insertText": "<dfn></dfn>" },
+  {
+    "label": "abbr",
+    "kind": "Snippet",
+    "insertText": "<abbr title=\"\"></abbr>"
+  },
+  {
+    "label": "ruby",
+    "kind": "Snippet",
+    "insertText": "<ruby>\n\t<rt></rt>\n</ruby>"
+  },
+  { "label": "rt", "kind": "Snippet", "insertText": "<rt></rt>" },
+  {
+    "label": "rtc",
+    "kind": "Snippet",
+    "insertText": "<rtc>\n\t<rt></rt>\n\t<rp></rp>\n</rtc>"
+  },
+  { "label": "rp", "kind": "Snippet", "insertText": "<rp></rp>" },
+  {
+    "label": "data",
+    "kind": "Snippet",
+    "insertText": "<data value=\"\"></data>"
+  },
+  {
+    "label": "time",
+    "kind": "Snippet",
+    "insertText": "<time datetime=\"\"></time>"
+  },
+  { "label": "code", "kind": "Snippet", "insertText": "<code></code>" },
+  { "label": "kbd", "kind": "Snippet", "insertText": "<kbd></kbd>" },
+  { "label": "samp", "kind": "Snippet", "insertText": "<samp></samp>" },
+  { "label": "var", "kind": "Snippet", "insertText": "<var></var>" },
+  { "label": "mark", "kind": "Snippet", "insertText": "<mark></mark>" },
+  { "label": "bdi", "kind": "Snippet", "insertText": "<bdi></bdi>" },
+  { "label": "bdo", "kind": "Snippet", "insertText": "<bdo dir=\"\"></bdo>" },
+  { "label": "span", "kind": "Snippet", "insertText": "<span></span>" },
+  { "label": "br", "kind": "Snippet", "insertText": "<br>" },
+  { "label": "wbr", "kind": "Snippet", "insertText": "<wbr>" },
+  { "label": "ins", "kind": "Snippet", "insertText": "<ins></ins>" },
+  { "label": "del", "kind": "Snippet", "insertText": "<del></del>" },
+  {
+    "label": "picture",
+    "kind": "Snippet",
+    "insertText": "<picture>\n\t<source srcset=\"\" type=\"\">\n\t<img src=\"\" alt=\"\">\n</picture>"
+  },
+  {
+    "label": "source",
+    "kind": "Snippet",
+    "insertText": "<source srcset=\"\" type=\"\">"
+  },
+  {
+    "label": "img",
+    "kind": "Snippet",
+    "insertText": "<img src=\"\" alt=\"\">"
+  },
+  {
+    "label": "iframe",
+    "kind": "Snippet",
+    "insertText": "<iframe src=\"\" frameborder=\"0\" allowfullscreen></iframe>"
+  },
+  { "label": "embed", "kind": "Snippet", "insertText": "<embed src=\"\">" },
+  {
+    "label": "object",
+    "kind": "Snippet",
+    "insertText": "<object data=\"\" type=\"\">\n\t\n</object>"
+  },
+  {
+    "label": "param",
+    "kind": "Snippet",
+    "insertText": "<param name=\"\" value=\"\">"
+  },
+  {
+    "label": "video",
+    "kind": "Snippet",
+    "insertText": "<video controls>\n\t<source src=\"\" type=\"\">\n\tYour browser does not support the video tag.\n</video>"
+  },
+  {
+    "label": "audio",
+    "kind": "Snippet",
+    "insertText": "<audio controls>\n\t<source src=\"\" type=\"\">\n\tYour browser does not support the audio tag.\n</audio>"
+  },
+  {
+    "label": "track",
+    "kind": "Snippet",
+    "insertText": "<track src=\"\" kind=\"\" srclang=\"\" label=\"\">"
+  },
+  {
+    "label": "map",
+    "kind": "Snippet",
+    "insertText": "<map name=\"\">\n\t\n</map>"
+  },
+  {
+    "label": "area",
+    "kind": "Snippet",
+    "insertText": "<area shape=\"\" coords=\"\" href=\"\" alt=\"\">"
+  },
+  {
+    "label": "table",
+    "kind": "Snippet",
+    "insertText": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t</tr>\n\t</tbody>\n</table>"
+  },
+  {
+    "label": "caption",
+    "kind": "Snippet",
+    "insertText": "<caption></caption>"
+  },
+  {
+    "label": "colgroup",
+    "kind": "Snippet",
+    "insertText": "<colgroup>\n\t<col>\n</colgroup>"
+  },
+  { "label": "col", "kind": "Snippet", "insertText": "<col>" },
+  {
+    "label": "tbody",
+    "kind": "Snippet",
+    "insertText": "<tbody>\n\t<tr>\n\t\t<td></td>\n\t</tr>\n</tbody>"
+  },
+  {
+    "label": "thead",
+    "kind": "Snippet",
+    "insertText": "<thead>\n\t<tr>\n\t\t<th></th>\n\t</tr>\n</thead>"
+  },
+  {
+    "label": "tfoot",
+    "kind": "Snippet",
+    "insertText": "<tfoot>\n\t<tr>\n\t\t<td></td>\n\t</tr>\n</tfoot>"
+  },
+  {
+    "label": "tr",
+    "kind": "Snippet",
+    "insertText": "<tr>\n\t<td></td>\n</tr>"
+  },
+  { "label": "td", "kind": "Snippet", "insertText": "<td></td>" },
+  { "label": "th", "kind": "Snippet", "insertText": "<th></th>" },
+  {
+    "label": "form",
+    "kind": "Snippet",
+    "insertText": "<form action=\"\">\n\t\n</form>"
+  },
+  {
+    "label": "fieldset",
+    "kind": "Snippet",
+    "insertText": "<fieldset>\n\t\n</fieldset>"
+  },
+  { "label": "legend", "kind": "Snippet", "insertText": "<legend></legend>" },
+  {
+    "label": "label",
+    "kind": "Snippet",
+    "insertText": "<label for=\"\"></label>"
+  },
+  { "label": "input", "kind": "Snippet", "insertText": "<input type=\"\">" },
+  { "label": "button", "kind": "Snippet", "insertText": "<button></button>" },
+  {
+    "label": "select",
+    "kind": "Snippet",
+    "insertText": "<select>\n\t<option value=\"\"></option>\n</select>"
+  },
+  {
+    "label": "datalist",
+    "kind": "Snippet",
+    "insertText": "<datalist>\n\t<option value=\"\"></option>\n</datalist>"
+  },
+  {
+    "label": "optgroup",
+    "kind": "Snippet",
+    "insertText": "<optgroup label=\"\">\n\t<option value=\"\"></option>\n</optgroup>"
+  },
+  {
+    "label": "option",
+    "kind": "Snippet",
+    "insertText": "<option value=\"\"></option>"
+  },
+  {
+    "label": "textarea",
+    "kind": "Snippet",
+    "insertText": "<textarea></textarea>"
+  },
+  {
+    "label": "output",
+    "kind": "Snippet",
+    "insertText": "<output for=\"\"></output>"
+  },
+  {
+    "label": "progress",
+    "kind": "Snippet",
+    "insertText": "<progress max=\"\" value=\"\"></progress>"
+  },
+  {
+    "label": "meter",
+    "kind": "Snippet",
+    "insertText": "<meter min=\"\" max=\"\" value=\"\"></meter>"
+  },
+  {
+    "label": "details",
+    "kind": "Snippet",
+    "insertText": "<details>\n\t<summary></summary>\n\t\n</details>"
+  },
+  {
+    "label": "summary",
+    "kind": "Snippet",
+    "insertText": "<summary></summary>"
+  },
+  {
+    "label": "dialog",
+    "kind": "Snippet",
+    "insertText": "<dialog>\n\t\n</dialog>"
+  },
+  {
+    "label": "script",
+    "kind": "Property",
+    "insertText": "<script>\n\t\n</script>"
+  },
+  {
+    "label": "script:module",
+    "kind": "Property",
+    "insertText": "<script type=\"module\" src=\"\"></script>"
+  },
+  {
+    "label": "script:src",
+    "kind": "Property",
+    "insertText": "<script src=\"\"></script>"
+  },
+  {
+    "label": "noscript",
+    "kind": "Snippet",
+    "insertText": "<noscript>\n\t\n</noscript>"
+  },
+  {
+    "label": "template",
+    "kind": "Snippet",
+    "insertText": "<template>\n\t\n</template>"
+  },
+  { "label": "canvas", "kind": "Snippet", "insertText": "<canvas></canvas>" },
+  { "label": "svg", "kind": "Snippet", "insertText": "<svg></svg>" },
+  { "label": "math", "kind": "Snippet", "insertText": "<math>\n\t\n</math>" }
+]

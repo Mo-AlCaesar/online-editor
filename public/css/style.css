@@ -1,0 +1,157 @@
+@import url("jquery-ui.css");
+@import url("bootstrap.min.css");
+@import url("bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+:root {
+  --main-bg-dark: #1e1e1e;
+  --second-bg-dark: #181818;
+  --border-color: gray;
+
+  --main-bg-light: white;
+  --bd-color: #0d6efd;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+
+body.dark-mode {
+  background-color: var(--second-bg-dark);
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+
+button i {
+  font-weight: 600;
+}
+
+body.dark-mode #tabs {
+  background-color: var(--second-bg-dark);
+  color: #fff;
+  border-color: var(--border-color);
+}
+
+body.dark-mode .ui-tabs-nav {
+  background-color: var(--second-bg-dark);
+  color: #fff;
+  border-color: var(--border-color);
+}
+
+.resultFrame {
+  background-color: #fff;
+}
+
+#codeInput {
+  width: 100%;
+  height: 100vh;
+}
+
+.dropDownButton {
+  background-color: var(--main-bg-light) !important;
+  border-color: var(--border-color) !important;
+  color: black !important;
+  padding-bottom: 1px;
+  border-radius: 0px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tabs-dropdown {
+  background-color: var(--main-bg-light) !important;
+  border-color: var(--border-color) !important;
+  color: black !important;
+  padding-bottom: 1px;
+  border-radius: 3px;
+}
+
+.tabs-dropdown i {
+  color: black;
+}
+
+.ui-state-default {
+  background-color: var(--main-bg-light) !important;
+  border-color: var(--border-color) !important;
+  color: black !important;
+  border-radius: 0px;
+}
+
+.ui-state-default a {
+  color: black !important;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+
+.ui-state-active {
+  background-color: whitesmoke !important;
+  border-color: var(--border-color) !important;
+  border-top: 2px solid var(--bd-color) !important;
+}
+
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+  background-image: url("images/ui-icons_444444_256x240.png");
+}
+
+/* dark mode  */
+
+body.dark-mode .dropDownButton {
+  background-color: var(--main-bg-dark) !important;
+  border-color: var(--border-color) !important;
+  color: white !important;
+  padding-bottom: 1px;
+}
+
+body.dark-mode .tabs-dropdown {
+  background-color: var(--main-bg-dark) !important;
+  border-color: var(--border-color) !important;
+  color: white !important;
+  padding-bottom: 1px;
+  border-radius: 3px;
+}
+
+body.dark-mode .tabs-dropdown i {
+  color: white;
+}
+
+body.dark-mode .dropdown-menu {
+  background-color: var(--main-bg-dark) !important;
+  border-color: var(--border-color) !important;
+  color: white !important;
+}
+
+body.dark-mode .ui-state-default {
+  background-color: var(--main-bg-dark) !important;
+  border-color: var(--border-color) !important;
+  color: white !important;
+}
+
+body.dark-mode .ui-state-default a {
+  color: white !important;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+
+body.dark-mode .ui-state-active {
+  background-color: var(--second-bg-dark) !important;
+  border-color: var(--border-color) !important;
+  border-top: 2px solid var(--bd-color) !important;
+}
+
+body.dark-mode #newTabButton {
+  background-color: var(--main-bg-dark) !important;
+  border-color: var(--border-color) !important;
+  padding-bottom: 1px;
+}
+
+.ui-icon {
+  cursor: pointer;
+}
+
+body.dark-mode .ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+  background-image: url("images/ui-icons_ffffff_256x240.png");
+}

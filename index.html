@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Runner</title>
+    <link href="public/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Code Runner</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mb-1">
+              <button class="btn btn-light me-2" id="saveButton">
+                <i class="bi bi-download"></i>
+              </button>
+            </li>
+            <li class="nav-item mb-1">
+              <button class="btn btn-light me-2" id="darkModeToggle">
+                <i class="bi bi-moon"></i>
+              </button>
+            </li>
+            <li class="nav-item mb-1">
+              <button class="btn btn-light me-2" id="layoutToggle">
+                <i class="bi bi-layout-split"></i>
+              </button>
+            </li>
+
+            <li class="nav-item mb-1">
+              <button class="btn btn-success" id="runButton">
+                <i class="bi bi-play"></i> Run Code
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div id="tabs">
+        <ul>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button
+                class="btn tabs-dropdown"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-list-task"></i>
+              </button>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item dropDownButton" id="newTabButton">
+                  <i class="bi bi-plus-square-fill me-2"></i> New Tab
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#tabs-1">Untitled-1</a
+            ><span class="ui-icon ui-icon-close" role="presentation"
+              >Remove Tab</span
+            >
+          </li>
+        </ul>
+
+        <div id="tabs-1" class="tab-content">
+          <div class="row">
+            <div class="col-md-6 container-full">
+              <div class="mb-3">
+                <div
+                  id="codeInput"
+                  class="codeInput"
+                  style="height: 300px"
+                ></div>
+              </div>
+            </div>
+            <div class="col-md-6 container-full">
+              <iframe
+                id="resultFrame"
+                class="resultFrame border"
+                style="width: 100%; height: 100%"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="public/js/jquery-3.6.0.min.js"></script>
+    <script src="public/js/jquery-ui.js"></script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/FileSaver.min.js"></script>
+    <script src="public/monaco-editor/min/vs/loader.js"></script>
+    <script src="public/js/mian.js"></script>
+  </body>
+</html>
