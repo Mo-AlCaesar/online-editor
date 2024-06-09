@@ -56,7 +56,7 @@ or install it by node package manager in the `monaco-editor` folder in the `publ
 ### by this line 
 
 ```
-npm install monaco-editor
+npm install monaco-editor@0.49.0
 
 ```
 
